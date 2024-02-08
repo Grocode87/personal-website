@@ -4,7 +4,7 @@ import Link from "next/link";
 export const Header = ({ projectsRef }) => {
   return (
     <div className="fixed w-full flex flex-row justify-center bg-background border-b border-gray-800 z-40">
-      <div className="w-8/12 h-20 flex flex-row justify-between items-center">
+      <div className="w-10/12 md:w-8/12 h-20 flex flex-row justify-between items-center">
         <div>
           <img src="./images/site_logo.png" width={60} height={60} />
         </div>
@@ -40,7 +40,9 @@ export const Header = ({ projectsRef }) => {
 
         <div className="inline md:hidden text-white">
           <div className="border border-teal-400 px-4 py-2 rounded-md">
-            <p>Resume</p>
+            <a href="./assets/resume_colin_grob.pdf" target="_blank">
+              <p>Resume</p>
+            </a>
           </div>
         </div>
       </div>

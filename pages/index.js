@@ -20,7 +20,7 @@ export default function Home() {
       <div className="w-full bg-background text-white">
         {/** INTRO */}
         <div className="flex flex-row justify-center items-center">
-          <div className="w-8/12 min-h-screen pt-48 flex flex-row">
+          <div className="w-10/12 md:w-8/12 min-h-screen pt-48 flex flex-row">
             <div className="space-y-6">
               <p className="text-xl text-teal-400 font-semibold">
                 Hi, my name is
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row justify-center">
-          <div className="w-8/12">
+          <div className="w-10/12 md:w-8/12">
             {/**
             <div>
               <p className="text-2xl pb-4">Education</p>
