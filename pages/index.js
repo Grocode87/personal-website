@@ -21,19 +21,19 @@ export default function Home() {
         {/** INTRO */}
         <div className="flex flex-row justify-center items-center">
           <div className="w-8/12 min-h-screen pt-48 flex flex-row">
-            <div className="space-y-6 w-8/12">
+            <div className="space-y-6">
               <p className="text-xl text-teal-400 font-semibold">
                 Hi, my name is
               </p>
               <p className="text-6xl font-semibold">Colin Grob.</p>
-              <p className=" text-slate-300 w-3/4">
+              <p className=" text-slate-300 md:w-3/4 pb-12">
                 I&apos;m a passionate third-year Computer Science student at
                 UBC. I excel at making full stack applications and have a deep
                 interest in AI/ML and creating software that can make a
                 difference.
               </p>
 
-              <div className="pt-12">
+              <div className="hidden md:inline">
                 <p className="text-teal-400 text-xl pb-1">Tech Stack</p>
                 <p>
                   <span className="font-bold">Programming:</span> Proficient in

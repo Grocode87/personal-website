@@ -45,7 +45,7 @@ export const ProjectDisplay = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-4 gap-8 w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
       {projects &&
         projects.map((project) => (
           <Project key={project.name} project={project} />

@@ -8,7 +8,7 @@ export const Header = ({ projectsRef }) => {
         <div>
           <img src="./images/site_logo.png" width={60} height={60} />
         </div>
-        <div className="flex flex-row text-white space-x-12">
+        <div className="flex-row text-white space-x-12 hidden md:flex">
           <p
             className="hover:text-gray-300 hover:cursor-pointer"
             onClick={() => {
@@ -36,6 +36,12 @@ export const Header = ({ projectsRef }) => {
               <span className="text-teal-400">03.</span> Resume
             </a>
           </p>
+        </div>
+
+        <div className="inline md:hidden text-white">
+          <div className="border border-teal-400 px-4 py-2 rounded-md">
+            <p>Resume</p>
+          </div>
         </div>
       </div>
     </div>
