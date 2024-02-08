@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Neural Times",
+    "subheading": "Automated AI Powered News Platform",
+    "image": "./images/neuraltimes_logo.png",
+    "tech_stack": "React, Python",
+    "tech_stack_advanced": "NextJS, React, TailwindCSS, NodeJS, RabbitMQ, Python, Flask, Docker, AWS",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {
+      "website": "https://neuraltimes.org"
+    }
+  },
+  {
+    "title": "Therap AI",
+    "subheading": "Experimental AI Powered Therapy Chatbot",
+    "image": "./images/therap_logo.png",
+    "tech_stack": "React Native, Python, OpenAI",
+    "tech_stack_advanced": "React Native, Python, OpenAI",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {
+      "github": "https://github.com/Grocode87/therapai-app"
+    }
+  },
+  {
+    "title": "Newlink",
+    "subheading": "Powerful News API",
+    "image": "./images/newslink_logo.png",
+    "tech_stack": "React, Python",
+    "tech_stack_advanced": "React Native, Python, OpenAI",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {
+      "github": "https://github.com/Grocode87/newslink-news-uploader"
+    }
+  },
+  {
+    "title": "Ticketing Platform",
+    "subheading": "Full Featured Ticket Platform",
+    "tech_stack": "React Native, Python, OpenAI",
+    "tech_stack_advanced": "React Native, Python, OpenAI",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {
+      "github": "https://github.com/Grocode87/ticket-platform"
+    }
+  },
+  {
+    "title": "Discord Chatbot",
+    "subheading": "AI Powered Discord Chatbot",
+    "image": "./images/discord_logo.png",
+    "tech_stack": "React Native, Python, OpenAI",
+    "tech_stack_advanced": "React Native, Python, OpenAI",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {
+      "github": "https://github.com/Grocode87/gpt3-discord-chatbot"
+    }
+  },
+  {
+    "title": "NFTLink",
+    "subheading": "Linktree-Style NFT Display",
+    "tech_stack": "React Native, Python, OpenAI",
+    "tech_stack_advanced": "React Native, Python, OpenAI",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {
+      "github": "https://github.com/Grocode87/nftlink"
+    }
+  },
+  {
+    "title": "Collective",
+    "subheading": "2-Sided Web3 Job Marketplace",
+    "image": "./images/collective_logo.png",
+    "tech_stack": "React Native, Python, OpenAI",
+    "tech_stack_advanced": "React Native, Python, OpenAI",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {
+      "website": "https://twitter.com/collectiveHQ_"
+    }
+  },
+  {
+    "title": "Tower Defender",
+    "subheading": "2D Java Tower Defense Game",
+    "tech_stack": "Java, Swing",
+    "tech_stack_advanced": "React Native, Python, OpenAI",
+    "content": "Neural times is a full stack ai-powered news platform",
+    "links": {}
+  }
+]
