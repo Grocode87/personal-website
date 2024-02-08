@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Header = ({ projectsRef }) => {
   return (
-    <div className="fixed w-full flex flex-row justify-center bg-background border-b border-gray-800">
+    <div className="fixed w-full flex flex-row justify-center bg-background border-b border-gray-800 z-40">
       <div className="w-8/12 h-20 flex flex-row justify-between items-center">
         <div>
           <img src="./images/site_logo.png" width={60} height={60} />

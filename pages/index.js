@@ -25,7 +25,7 @@ export default function Home() {
               <p className="text-xl text-teal-400 font-semibold">
                 Hi, my name is
               </p>
-              <p className="text-6xl font-semibold">Colin Grob.</p>
+              <p className="text-5xl md:text-6xl font-semibold">Colin Grob.</p>
               <p className=" text-slate-300 md:w-3/4 pb-12">
                 I&apos;m a passionate third-year Computer Science student at
                 UBC. I excel at making full stack applications and have a deep
@@ -53,7 +53,17 @@ export default function Home() {
                 </p>
               </div>
               <div className="inline-block pt-6">
-                <p className="p-3 border">See my projects</p>
+                <p
+                  className="p-3 border hover:cursor-pointer hover:bg-gray-800"
+                  onClick={() => {
+                    window.scrollTo({
+                      top: projectsRef.current.offsetTop,
+                      behavior: "smooth",
+                    });
+                  }}
+                >
+                  See My Projects
+                </p>
               </div>
             </div>
             <div className="w-4/12">
