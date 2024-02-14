@@ -6,7 +6,7 @@ const Project = ({ project }) => {
       <div className="w-full h-full brightness-50 bg-gray-500 rounded-md">
         {project.image && (
           <img
-            className="w-full h-full rounded-md duration-300 hover:scale-105"
+            className="w-full h-full rounded-md duration-300"
             src={project.image}
           ></img>
         )}
@@ -17,14 +17,14 @@ const Project = ({ project }) => {
       </div>
       <div className="absolute bottom-3 left-3 flex flex-row space-x-4">
         {project.links.website && (
-          <div className="w-6 h-6 hover:scale-105 hover:cursor-pointer">
+          <div className="w-6 h-6 group-hover:scale-105 hover:cursor-pointer">
             <a href={project.links.website} target="_blank">
               <img src="./images/world-wide-web.png" />
             </a>
           </div>
         )}
         {project.links.github && (
-          <div className="w-6 h-6 hover:scale-105 hover:cursor-pointer">
+          <div className="w-6 h-6 group-hover:scale-125 duration-200 hover:cursor-pointer">
             <a href={project.links.github} target="_blank">
               <img src="./images/github-sign.png" />
             </a>

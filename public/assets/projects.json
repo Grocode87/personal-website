@@ -77,9 +77,12 @@
   {
     "title": "Tower Defender",
     "subheading": "2D Java Tower Defense Game",
+    "image": "./images/tower_defender_ss.png",
     "tech_stack": "Java, Swing",
     "tech_stack_advanced": "React Native, Python, OpenAI",
     "content": "Neural times is a full stack ai-powered news platform",
-    "links": {}
+    "links": {
+      "github": "https://github.com/Grocode87/tower-defender"
+    }
   }
 ]

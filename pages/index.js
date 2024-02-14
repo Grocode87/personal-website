@@ -83,6 +83,7 @@ export default function Home() {
         <div className="flex flex-row justify-center">
           <div className="w-10/12 md:w-8/12">
             {/**
+             *
             <div>
               <p className="text-2xl pb-4">Education</p>
               <div className="flex flex-row items-stretch">
