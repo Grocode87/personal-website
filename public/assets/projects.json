@@ -60,7 +60,8 @@
     "tech_stack_advanced": "React Native, Python, OpenAI",
     "content": "Neural times is a full stack ai-powered news platform",
     "links": {
-      "github": "https://github.com/Grocode87/nftlink"
+      "github": "https://github.com/Grocode87/nftlink",
+      "website": "https://nftinbio-jmlmre43g-grocode87.vercel.app/"
     }
   },
   {
