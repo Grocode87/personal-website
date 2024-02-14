@@ -11,9 +11,12 @@ const Project = ({ project }) => {
           ></img>
         )}
       </div>
+      {/* Adding a semi-transparent overlay for better text readability */}
+      <div className="absolute inset-0 bg-black bg-opacity-40 rounded-md"></div>
       <div className="absolute top-3 left-3 w-full">
-        <p className="text-xl font-semibold">{project.title}</p>
-        <p>{project.subheading}</p>
+        {/* Applying text shadow for enhanced readability */}
+        <p className="text-xl font-semibold text-white">{project.title}</p>
+        <p className="text-white">{project.subheading}</p>
       </div>
       <div className="absolute bottom-3 left-3 flex flex-row space-x-4">
         {project.links.website && (
